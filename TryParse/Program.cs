@@ -15,7 +15,7 @@ namespace TryParse
                 Console.WriteLine(resultat);
             }
         }
-        static bool TryParse(string s, out int result)
+        bool TryParse(string s, out int result)
         {
             if (int.Parse(s) != null)
             {
